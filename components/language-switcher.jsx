@@ -1,27 +1,41 @@
 "use client";
 
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 
 export default function LanguageSwitcher() {
   const router = useRouter();
   const { pathname, asPath, query, locale } = router;
   const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef(null);
 
-  const toggleDropdown = () => setIsOpen(!isOpen);
+  const toggleDropdown = () => setIsOpen((prev) => !prev);
 
   const changeLanguage = (newLocale) => {
     router.push({ pathname, query }, asPath, { locale: newLocale });
     setIsOpen(false);
   };
 
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    }
+
+    if (isOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isOpen]);
+
   return (
-    <div className="relative">
-      <button
-        onClick={toggleDropdown}
-        className="flex items-center  transition"
-      >
+    <div className="relative" ref={dropdownRef}>
+      <button onClick={toggleDropdown} className="flex items-center transition">
         <Image
           src={
             locale === "en"
@@ -36,7 +50,11 @@ export default function LanguageSwitcher() {
 
       {isOpen && (
         <div className="absolute left-0 mt-2 w-24 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50 overflow-hidden">
-          <div className="flex items-center" role="menu" aria-orientation="vertical">
+          <div
+            className="flex items-center"
+            role="menu"
+            aria-orientation="vertical"
+          >
             <button
               onClick={() => changeLanguage("en")}
               className={`flex items-center gap-2 px-4 py-2 text-sm text-left w-full ${
