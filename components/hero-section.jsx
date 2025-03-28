@@ -51,7 +51,7 @@ export default function HeroSection() {
                 <i className="fa-solid fa-cross text-2xl sm:text-3xl text-primary"></i>
               </div>
 
-              <div className="absolute -top-4 sm:-top-6 -right-4 sm:-right-6 h-16 sm:h-24 w-16 sm:w-24 rounded-xl bg-amber-500/10 backdrop-blur-sm border border-amber-500/20 flex items-center justify-center">
+              <div className="absolute -top-4 sm:-top-6 -right-4 sm:-right-6 h-16 sm:h-24 w-16 sm:w-24 rounded-xl bg-amber-500/10 backdrop-blur-sm border border-amber-500/20 flex items-center justify-center animate-heartbeat">
                 <i className="fa-solid fa-qrcode text-2xl sm:text-3xl text-amber-600"></i>
               </div>
             </div>
