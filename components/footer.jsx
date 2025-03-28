@@ -94,15 +94,15 @@ export default function Footer() {
               <h3 className="text-sm font-semibold uppercase">{t("contactUsHeading")}</h3>
               <div className="mt-4 space-y-3 sm:space-y-4">
                 <p className="flex items-center justify-center sm:justify-start text-sm sm:text-base text-slate-300">
-                  <i className="fa-solid fa-envelope text-lg"></i>
+                  <i className="fa-solid fa-envelope text-lg mr-2"></i>
                   {t("email")} contact@legacy.am
                 </p>
                 <p className="flex items-center justify-center sm:justify-start text-sm sm:text-base text-slate-300">
-                  <i className="fa-solid fa-phone text-lg"></i>
+                  <i className="fa-solid fa-phone text-lg mr-2"></i>
                   {t("phone")} +374 10 123456
                 </p>
                 <p className="flex items-center justify-center sm:justify-start text-sm sm:text-base text-slate-300">
-                  <i className="fa-solid fa-map-marker-alt text-lg"></i>
+                  <i className="fa-solid fa-map-marker-alt text-lg mr-2"></i>
                   {t("address")} 123 Memorial Lane, Yerevan, Armenia
                 </p>
               </div>
