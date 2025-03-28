@@ -29,7 +29,7 @@ export default function MissionSection() {
               <div className="mt-8 flex justify-center">
                 <a
                   href="#contact"
-                  className="inline-flex items-center gap-x-2 rounded-full bg-sky-500 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-sky-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-500 transition"
+                  className="inline-flex items-center gap-x-2 rounded-full bg-primary/90 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary/90 transition"
                 >
                   {t("contactUs")}
                   <i className="fa-solid fa-arrow-right ml-2"></i>

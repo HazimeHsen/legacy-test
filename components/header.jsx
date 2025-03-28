@@ -42,37 +42,37 @@ export default function Header() {
 
               <ul className="flex items-center gap-4 lg:gap-6 text-sm">
                 <li>
-                  <Link className="text-gray-700 transition hover:text-sky-600" href="#about">
+                  <Link className="text-gray-700 transition hover:text-primary" href="#about">
                     {t("about")}
                   </Link>
                 </li>
 
                 <li>
-                  <Link className="text-gray-700 transition hover:text-sky-600" href="#services">
+                  <Link className="text-gray-700 transition hover:text-primary" href="#services">
                     {t("services")}
                   </Link>
                 </li>
 
                 <li>
-                  <Link className="text-gray-700 transition hover:text-sky-600" href="#how-it-works">
+                  <Link className="text-gray-700 transition hover:text-primary" href="#how-it-works">
                     {t("howItWorks")}
                   </Link>
                 </li>
 
                 <li>
-                  <Link className="text-gray-700 transition hover:text-sky-600" href="#mission">
+                  <Link className="text-gray-700 transition hover:text-primary" href="#mission">
                     {t("mission")}
                   </Link>
                 </li>
 
                 <li>
-                  <Link className="text-gray-700 transition hover:text-sky-600" href="#faqs">
+                  <Link className="text-gray-700 transition hover:text-primary" href="#faqs">
                     {t("faqs")}
                   </Link>
                 </li>
 
                 <li>
-                  <Link className="text-gray-700 transition hover:text-sky-600" href="#contact">
+                  <Link className="text-gray-700 transition hover:text-primary" href="#contact">
                     {t("contact")}
                   </Link>
                 </li>
@@ -86,14 +86,14 @@ export default function Header() {
             <div className="flex items-center gap-4">
               <div className="hidden sm:flex sm:gap-3 md:gap-4">
                 <Link
-                  className="rounded-full bg-sky-500 px-3 sm:px-4 md:px-5 py-2 md:py-2.5 text-xs sm:text-sm font-medium text-white shadow hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 transition"
+                  className="rounded-full bg-primary/90 px-3 sm:px-4 md:px-5 py-2 md:py-2.5 text-xs sm:text-sm font-medium text-white shadow hover:bg-primary focus:outline-none focus:ring-2 focus:ring-primary/90 focus:ring-offset-2 transition"
                   href="/login"
                 >
                   {t("login")}
                 </Link>
 
                 <Link
-                  className="rounded-full bg-white border border-sky-500 px-3 sm:px-4 md:px-5 py-2 md:py-2.5 text-xs sm:text-sm font-medium text-sky-600 shadow hover:bg-sky-50 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 transition"
+                  className="rounded-full bg-white border border-primary/90 px-3 sm:px-4 md:px-5 py-2 md:py-2.5 text-xs sm:text-sm font-medium text-primary shadow hover:bg-primary/5 focus:outline-none focus:ring-2 focus:ring-primary/90 focus:ring-offset-2 transition"
                   href="/register"
                 >
                   {t("register")}
@@ -124,42 +124,42 @@ export default function Header() {
           <div className="space-y-1 px-4 pb-5 pt-2">
             <Link
               href="#about"
-              className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-sky-600"
+              className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-primary"
               onClick={() => setIsMenuOpen(false)}
             >
               {t("about")}
             </Link>
             <Link
               href="#services"
-              className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-sky-600"
+              className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-primary"
               onClick={() => setIsMenuOpen(false)}
             >
               {t("services")}
             </Link>
             <Link
               href="#how-it-works"
-              className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-sky-600"
+              className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-primary"
               onClick={() => setIsMenuOpen(false)}
             >
               {t("howItWorks")}
             </Link>
             <Link
               href="#mission"
-              className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-sky-600"
+              className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-primary"
               onClick={() => setIsMenuOpen(false)}
             >
               {t("mission")}
             </Link>
             <Link
               href="#faqs"
-              className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-sky-600"
+              className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-primary"
               onClick={() => setIsMenuOpen(false)}
             >
               {t("faqs")}
             </Link>
             <Link
               href="#contact"
-              className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-sky-600"
+              className="block rounded-md px-3 py-2 text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-primary"
               onClick={() => setIsMenuOpen(false)}
             >
               {t("contact")}
@@ -167,14 +167,14 @@ export default function Header() {
             <div className="pt-4 space-y-2">
               <Link
                 href="/login"
-                className="block w-full rounded-full bg-sky-500 px-4 py-2 text-center text-sm font-medium text-white shadow-sm hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2"
+                className="block w-full rounded-full bg-primary/90 px-4 py-2 text-center text-sm font-medium text-white shadow-sm hover:bg-primary focus:outline-none focus:ring-2 focus:ring-primary/90 focus:ring-offset-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t("login")}
               </Link>
               <Link
                 href="/register"
-                className="block w-full rounded-full bg-white border border-sky-500 px-4 py-2 text-center text-sm font-medium text-sky-600 shadow-sm hover:bg-sky-50 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2"
+                className="block w-full rounded-full bg-white border border-primary/90 px-4 py-2 text-center text-sm font-medium text-primary shadow-sm hover:bg-primary/5 focus:outline-none focus:ring-2 focus:ring-primary/90 focus:ring-offset-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t("register")}

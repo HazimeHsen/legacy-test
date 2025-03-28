@@ -22,13 +22,13 @@ export default function HeroSection() {
             <div className="mt-6 sm:mt-10 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
               <a
                 href="#services"
-                className="w-full sm:w-auto rounded-full bg-sky-500 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-sky-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-500 transition"
+                className="w-full sm:w-auto rounded-full bg-primary/90 px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary/90 transition"
               >
                 {t("ourServices")}
               </a>
               <a
                 href="#how-it-works"
-                className="w-full sm:w-auto text-sm font-semibold leading-6 text-slate-700 hover:text-sky-600 transition"
+                className="w-full sm:w-auto text-sm font-semibold leading-6 text-slate-700 hover:text-primary transition"
               >
                 {t("learnMore")} <span aria-hidden="true">→</span>
               </a>
@@ -47,8 +47,8 @@ export default function HeroSection() {
                 />
               </div>
 
-              <div className="absolute -bottom-4 sm:-bottom-6 -left-4 sm:-left-6 h-16 sm:h-24 w-16 sm:w-24 rounded-xl bg-sky-500/20 backdrop-blur-sm border border-sky-500/30 flex items-center justify-center animate-heartbeat">
-                <i className="fa-solid fa-cross text-2xl sm:text-3xl text-sky-600"></i>
+              <div className="absolute -bottom-4 sm:-bottom-6 -left-4 sm:-left-6 h-16 sm:h-24 w-16 sm:w-24 rounded-xl bg-primary/10 backdrop-blur-sm border border-primary/90 flex items-center justify-center animate-heartbeat">
+                <i className="fa-solid fa-cross text-2xl sm:text-3xl text-primary"></i>
               </div>
 
               <div className="absolute -top-4 sm:-top-6 -right-4 sm:-right-6 h-16 sm:h-24 w-16 sm:w-24 rounded-xl bg-amber-500/10 backdrop-blur-sm border border-amber-500/20 flex items-center justify-center">

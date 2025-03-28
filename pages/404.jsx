@@ -13,7 +13,7 @@ export default function NotFound() {
         <div className="mt-4 flex justify-center">
           <svg className="h-12 w-full max-w-[400px]" viewBox="0 0 400 40" xmlns="http://www.w3.org/2000/svg">
             <path
-              className="animate-flatline stroke-current text-sky-500/50"
+              className="animate-flatline stroke-current text-primary/60"
               fill="none"
               strokeWidth="2"
               strokeLinecap="round"
@@ -28,7 +28,7 @@ export default function NotFound() {
 
         <Link
           href="/"
-          className="mt-8 inline-block rounded-full bg-sky-500 px-5 py-3 text-sm font-medium text-white hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2"
+          className="mt-8 inline-block rounded-full bg-primary/90 px-5 py-3 text-sm font-medium text-white hover:bg-primary focus:outline-none focus:ring-2 focus:ring-primary/90 focus:ring-offset-2"
         >
           {t("goBackHome")}
         </Link>

@@ -23,17 +23,17 @@ export default function Footer() {
             </p>
 
             <div className="mt-6 flex justify-center lg:justify-start space-x-6">
-              <a href="#" className="text-slate-400 hover:text-sky-400 transition">
+              <a href="#" className="text-slate-400 transition">
                 <span className="sr-only">Facebook</span>
                 <i className="fa-brands fa-facebook-f text-xl"></i>
               </a>
 
-              <a href="#" className="text-slate-400 hover:text-sky-400 transition">
+              <a href="#" className="text-slate-400 transition">
                 <span className="sr-only">Instagram</span>
                 <i className="fa-brands fa-instagram text-xl"></i>
               </a>
 
-              <a href="#" className="text-slate-400 hover:text-sky-400 transition">
+              <a href="#" className="text-slate-400 transition">
                 <span className="sr-only">Twitter</span>
                 <i className="fa-brands fa-twitter text-xl"></i>
               </a>
@@ -43,7 +43,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2">
             <div className="sm:grid sm:grid-cols-2">
               <div className="text-center sm:text-left">
-                <h3 className="text-sm font-semibold uppercase tracking-wider text-sky-400">{t("navigation")}</h3>
+                <h3 className="text-sm font-semibold uppercase">{t("navigation")}</h3>
                 <ul className="mt-4 space-y-3 sm:space-y-4">
                   <li>
                     <a href="#about" className="text-sm sm:text-base text-slate-300 hover:text-white transition">
@@ -74,7 +74,7 @@ export default function Footer() {
               </div>
 
               <div className="mt-8 sm:mt-0 text-center sm:text-left">
-                <h3 className="text-sm font-semibold uppercase tracking-wider text-sky-400">{t("legal")}</h3>
+                <h3 className="text-sm font-semibold uppercase">{t("legal")}</h3>
                 <ul className="mt-4 space-y-3 sm:space-y-4">
                   <li>
                     <a href="#" className="text-sm sm:text-base text-slate-300 hover:text-white transition">
@@ -91,18 +91,18 @@ export default function Footer() {
             </div>
 
             <div className="text-center sm:text-left">
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-sky-400">{t("contactUsHeading")}</h3>
+              <h3 className="text-sm font-semibold uppercase">{t("contactUsHeading")}</h3>
               <div className="mt-4 space-y-3 sm:space-y-4">
                 <p className="flex items-center justify-center sm:justify-start text-sm sm:text-base text-slate-300">
-                  <i className="fa-solid fa-envelope text-lg mr-2 text-sky-400"></i>
+                  <i className="fa-solid fa-envelope text-lg"></i>
                   {t("email")} contact@legacy.am
                 </p>
                 <p className="flex items-center justify-center sm:justify-start text-sm sm:text-base text-slate-300">
-                  <i className="fa-solid fa-phone text-lg mr-2 text-sky-400"></i>
+                  <i className="fa-solid fa-phone text-lg"></i>
                   {t("phone")} +374 10 123456
                 </p>
                 <p className="flex items-center justify-center sm:justify-start text-sm sm:text-base text-slate-300">
-                  <i className="fa-solid fa-map-marker-alt text-lg mr-2 text-sky-400"></i>
+                  <i className="fa-solid fa-map-marker-alt text-lg"></i>
                   {t("address")} 123 Memorial Lane, Yerevan, Armenia
                 </p>
               </div>

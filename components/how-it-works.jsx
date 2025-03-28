@@ -9,7 +9,7 @@ export default function HowItWorks() {
       <section id="how-it-works" className="py-24 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center mb-16">
-            <div className="inline-flex items-center rounded-full bg-sky-50 px-3 py-1 text-sm font-medium text-sky-700 mb-6">
+            <div className="inline-flex items-center rounded-full bg-primary/5 px-3 py-1 text-sm font-medium text-primary mb-6">
               {t("howItWorks")}
             </div>
 
@@ -27,8 +27,8 @@ export default function HowItWorks() {
               <div className="relative">
                 <div className="lg:pt-16 relative">
                   <div className="rounded-xl bg-slate-50 p-6 h-full shadow-sm border border-slate-100">
-                    <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-sky-100">
-                      <i className="fa-solid fa-user-plus text-xl text-sky-600"></i>
+                    <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-primary/10">
+                      <i className="fa-solid fa-user-plus text-xl text-primary"></i>
                     </div>
 
                     <h3 className="text-xl font-semibold text-slate-900">{t("register")}</h3>
@@ -42,8 +42,8 @@ export default function HowItWorks() {
               <div className="relative">
                 <div className="lg:pt-16 relative">
                   <div className="rounded-xl bg-slate-50 p-6 h-full shadow-sm border border-slate-100">
-                    <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-sky-100">
-                      <i className="fa-solid fa-edit text-xl text-sky-600"></i>
+                    <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-primary/10">
+                      <i className="fa-solid fa-edit text-xl text-primary"></i>
                     </div>
 
                     <h3 className="text-xl font-semibold text-slate-900">{t("setupProfile")}</h3>
@@ -57,8 +57,8 @@ export default function HowItWorks() {
               <div className="relative">
                 <div className="lg:pt-16 relative">
                   <div className="rounded-xl bg-slate-50 p-6 h-full shadow-sm border border-slate-100">
-                    <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-sky-100">
-                      <i className="fa-solid fa-shopping-cart text-xl text-sky-600"></i>
+                    <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-primary/10">
+                      <i className="fa-solid fa-shopping-cart text-xl text-primary"></i>
                     </div>
 
                     <h3 className="text-xl font-semibold text-slate-900">{t("orderProduct")}</h3>
@@ -72,8 +72,8 @@ export default function HowItWorks() {
               <div className="relative">
                 <div className="lg:pt-16 relative">
                   <div className="rounded-xl bg-slate-50 p-6 h-full shadow-sm border border-slate-100">
-                    <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-sky-100">
-                      <i className="fa-solid fa-check-circle text-xl text-sky-600"></i>
+                    <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-primary/10">
+                      <i className="fa-solid fa-check-circle text-xl text-primary"></i>
                     </div>
 
                     <h3 className="text-xl font-semibold text-slate-900">{t("applyGravestone")}</h3>
@@ -89,7 +89,7 @@ export default function HowItWorks() {
           <div className="mt-16 text-center">
             <a
               href="#contact"
-              className="inline-flex items-center gap-x-2 rounded-full bg-sky-500 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-sky-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-500 transition"
+              className="inline-flex items-center gap-x-2 rounded-full bg-primary/90 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-primary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary/90 transition"
             >
               {t("beginYourMemorial")}
               <i className="fa-solid fa-arrow-right ml-2"></i>
