@@ -26,7 +26,7 @@ export default function AboutSection() {
 
               <div className="absolute -bottom-8 -left-8 w-64 sm:w-72 rounded-2xl bg-white/90 backdrop-blur-sm shadow-xl p-4 sm:p-6">
                 <div className="flex items-center gap-4">
-                  <div className="flex-shrink-0 rounded-full bg-primary/10 p-2">
+                  <div className="flex-shrink-0 rounded-full bg-primary/10 size-10 flex items-center justify-center">
                     <i className="fa-solid fa-heart text-xl text-primary"></i>
                   </div>
                   <div>
