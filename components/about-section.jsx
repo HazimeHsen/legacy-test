@@ -9,7 +9,7 @@ export default function AboutSection() {
     <FadeInSection>
       <section
         id="about"
-        className="py-16 sm:py-20 md:py-24 overflow-hidden bg-white"
+        className="py-16 sm:py-20 md:py-24 overflow-hidden bg-white md:pl-0 pl-5"
       >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-y-12 gap-x-8 lg:grid-cols-2 items-center">

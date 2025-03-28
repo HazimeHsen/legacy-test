@@ -5,7 +5,7 @@ export default function HeroSection() {
   const { t } = useTranslation("common")
 
   return (
-    <section className="relative pt-20 overflow-hidden">
+    <section className="relative pt-20 overflow-hidden md:px-0 px-4">
       <div className="absolute inset-0 hero-gradient -z-10"></div>
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-20 lg:py-24">
